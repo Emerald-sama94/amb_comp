@@ -1,3 +1,8 @@
+"""read_mapping.py
+   This script maps genomic reads, either short or long, to assembled genomes, returning output file in BAM format and read quality assessment in HTML format.
+   USAGE: python ~/read_mapping.py assembly.fa -s short-read1.fq -S short-read2.fq -pb pacbio-read.fq -on nanopore-read.fq
+   """
+
 import argparse
 import os
 import shutil
